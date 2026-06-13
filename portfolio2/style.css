@@ -590,3 +590,21 @@ box-shadow:0 10px 25px rgba(225,29,72,0.3);
     line-height:1.7;
     margin-bottom:20px;
 }
+#certifications .section-title{
+    text-align:center;
+    font-size:42px;
+    font-weight:700;
+    color:#e11d48;
+    margin-bottom:50px;
+    position:relative;
+}
+
+#certifications .section-title::after{
+    content:'';
+    width:80px;
+    height:4px;
+    background:#e11d48;
+    display:block;
+    margin:12px auto 0;
+    border-radius:10px;
+}
