@@ -802,7 +802,17 @@ button { font: inherit; }
         gap: 18px 25px;
     }
 
-   
+    .contact-details a {
+        font-size: 12px;
+    }
+}
+
+/* ANPR Project Card */
+.project-top-anpr {
+    background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+    color: #1e40af;
+}
+
 /* Additional project card colors */
 .project-top-green {
     background: linear-gradient(135deg, #d1fae5, #a7f3d0);
@@ -856,10 +866,5 @@ button { font: inherit; }
     .projects-grid {
         grid-template-columns: 1fr;
         gap: 20px;
-    }
-}
-
-    .contact-details a {
-        font-size: 12px;
     }
 }
